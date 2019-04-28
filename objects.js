@@ -5,7 +5,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 updatePlaylist(playlist, 'Phil Ochs', "Here's to the State of Mississipp")
 
-function removeFromPlaylist(key, value) {
+function removeFromPlaylist(artistName, songTitle) {
   delete playlist.Slowdive
   return playlist
 }
